@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>MobileApp.UI.Api</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MobileApp.Application\MobileApp.Application.csproj" />
+    <ProjectReference Include="..\MobileApp.DAL.EF\MobileApp.DAL.EF.csproj" />
+    <ProjectReference Include="..\MobileApp.Infra.Common\MobileApp.Infra.Common.csproj" />
+    <ProjectReference Include="..\MobileApp.Infra.ObjectsDataTransfers\MobileApp.Infra.ObjectsDataTransfers.csproj" />
+  </ItemGroup>
+
+</Project>

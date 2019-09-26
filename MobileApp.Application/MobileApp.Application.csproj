@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MobileApp.Domain.Service\MobileApp.Domain.Service.csproj" />
+    <ProjectReference Include="..\MobileApp.Domain\MobileApp.Domain.csproj" />
+    <ProjectReference Include="..\MobileApp.Infra.ObjectsDataTransfers\MobileApp.Infra.ObjectsDataTransfers.csproj" />
+  </ItemGroup>
+
+</Project>
